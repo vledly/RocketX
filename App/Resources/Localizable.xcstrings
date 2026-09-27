@@ -1,0 +1,570 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "common.clearFilter" : {
+      "comment" : "Resets an active filter from a shared empty state.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear filter"
+          }
+        }
+      }
+    },
+    "common.close" : {
+      "comment" : "Button that closes the presented flow.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "common.retry" : {
+      "comment" : "Retries loading after a shared error state.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
+          }
+        }
+      }
+    },
+    "details.load.error" : {
+      "comment" : "Message shown when a detail request fails.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not load details"
+          }
+        }
+      }
+    },
+    "details.retry" : {
+      "comment" : "Retries a failed detail request.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
+          }
+        }
+      }
+    },
+    "launch.details.description" : {
+      "comment" : "Heading above a launch description.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About this launch"
+          }
+        }
+      }
+    },
+    "launch.details.generatedDescription" : {
+      "comment" : "Fallback summary composed only from the launch name, date, launchpad and rocket in archived API records.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ launched on %@ from %@ aboard %@."
+          }
+        }
+      }
+    },
+    "launch.details.rocket" : {
+      "comment" : "Heading above the rocket card on launch details.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rocket"
+          }
+        }
+      }
+    },
+    "launch.details.title" : {
+      "comment" : "Launch detail screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch details"
+          }
+        }
+      }
+    },
+    "launch.details.watchWebcast" : {
+      "comment" : "Opens the launch webcast.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch webcast"
+          }
+        }
+      }
+    },
+    "launch.site.unknown" : {
+      "comment" : "Fallback for a launch whose launchpad details are unavailable.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch site unavailable"
+          }
+        }
+      }
+    },
+    "launch.status.failed" : {
+      "comment" : "Status badge for a failed launch.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed"
+          }
+        }
+      }
+    },
+    "launch.status.successful" : {
+      "comment" : "Status badge for a successful launch.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Successful"
+          }
+        }
+      }
+    },
+    "launch.status.unknown" : {
+      "comment" : "Status badge when a launch status is unavailable.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        }
+      }
+    },
+    "launch.status.upcoming" : {
+      "comment" : "Status badge for an upcoming launch.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upcoming"
+          }
+        }
+      }
+    },
+    "launches.empty.all.description" : {
+      "comment" : "Description when the unfiltered launch list is empty.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are no launches to show."
+          }
+        }
+      }
+    },
+    "launches.empty.all.title" : {
+      "comment" : "Title when the unfiltered launch list is empty.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No launches available"
+          }
+        }
+      }
+    },
+    "launches.empty.description" : {
+      "comment" : "Suggestion when no launches match the date filter.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose another date range or clear the filter."
+          }
+        }
+      }
+    },
+    "launches.empty.title" : {
+      "comment" : "Empty result for the selected launch-date range.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No launches found"
+          }
+        }
+      }
+    },
+    "launches.filter.apply" : {
+      "comment" : "Applies the selected launch-date range.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply"
+          }
+        }
+      }
+    },
+    "launches.filter.clear" : {
+      "comment" : "Removes launch-date limits.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear filter"
+          }
+        }
+      }
+    },
+    "launches.filter.clearDate" : {
+      "comment" : "Accessibility label for clearing only one date input.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear this date"
+          }
+        }
+      }
+    },
+    "launches.filter.from" : {
+      "comment" : "Enables a lower launch-date bound.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From"
+          }
+        }
+      }
+    },
+    "launches.filter.invalidRange" : {
+      "comment" : "Validation message for an inverted launch-date range.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start date must be on or before end date."
+          }
+        }
+      }
+    },
+    "launches.filter.selectDate" : {
+      "comment" : "Placeholder and accessibility label for an empty launch-date input.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select date"
+          }
+        }
+      }
+    },
+    "launches.filter.title" : {
+      "comment" : "Title of the date-filter sheet and its toolbar button.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch date"
+          }
+        }
+      }
+    },
+    "launches.filter.to" : {
+      "comment" : "Enables an upper launch-date bound.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To"
+          }
+        }
+      }
+    },
+    "launches.filter.useDate" : {
+      "comment" : "Confirms the highlighted day in the expanded calendar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this date"
+          }
+        }
+      }
+    },
+    "launches.load.error" : {
+      "comment" : "Initial launch-list load error.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not load launches"
+          }
+        }
+      }
+    },
+    "launches.nextPage.retry" : {
+      "comment" : "Button to retry loading the next page of launches while keeping the current list.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not load more. Try again"
+          }
+        }
+      }
+    },
+    "launches.title" : {
+      "comment" : "Launch list screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launches"
+          }
+        }
+      }
+    },
+    "rocket.details.activeStatus" : {
+      "comment" : "Rocket active status label.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "rocket.details.description" : {
+      "comment" : "Heading above the rocket description.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About this rocket"
+          }
+        }
+      }
+    },
+    "rocket.details.engines" : {
+      "comment" : "Rocket engine count label.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engines"
+          }
+        }
+      }
+    },
+    "rocket.details.engineType" : {
+      "comment" : "Rocket engine type label.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engine type"
+          }
+        }
+      }
+    },
+    "rocket.details.firstFlight" : {
+      "comment" : "Rocket first flight date label.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First flight"
+          }
+        }
+      }
+    },
+    "rocket.details.specifications" : {
+      "comment" : "Heading above rocket specifications.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Specifications"
+          }
+        }
+      }
+    },
+    "rocket.details.stages" : {
+      "comment" : "Rocket stage count label.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stages"
+          }
+        }
+      }
+    },
+    "rocket.details.title" : {
+      "comment" : "Rocket detail screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rocket details"
+          }
+        }
+      }
+    },
+    "rocket.status.active" : {
+      "comment" : "A rocket currently marked active in the API snapshot.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active"
+          }
+        }
+      }
+    },
+    "rocket.status.inactive" : {
+      "comment" : "A rocket currently marked inactive in the API snapshot.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inactive"
+          }
+        }
+      }
+    },
+    "rockets.empty.description" : {
+      "comment" : "Description shown when there are no rockets to display.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There are no rockets to show."
+          }
+        }
+      }
+    },
+    "rockets.empty.title" : {
+      "comment" : "Title shown when there are no rockets to display.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No rockets available"
+          }
+        }
+      }
+    },
+    "rockets.load.error" : {
+      "comment" : "Message shown when the first rockets page fails.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not load rockets"
+          }
+        }
+      }
+    },
+    "rockets.nextPage.retry" : {
+      "comment" : "Retries loading the next page of rockets.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not load more. Try again"
+          }
+        }
+      }
+    },
+    "rockets.successRate" : {
+      "comment" : "Label for rocket success rate percentage.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Success rate"
+          }
+        }
+      }
+    },
+    "rockets.title" : {
+      "comment" : "Rocket list screen navigation title.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rockets"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
